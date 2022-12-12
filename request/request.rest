@@ -1,0 +1,49 @@
+GET http://localhost:3001/api/persons
+
+###
+
+GET http://localhost:3001/api/info
+
+###
+
+GET http://localhost:3001/api/persons/6384e2c2c99529b723ee5372
+
+###
+
+DELETE http://localhost:3001/api/persons/638a9a9338ba81ad360d494f
+
+
+###
+
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "Camila",
+  "number": "6445-913-526"
+}
+###
+
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "Vieja"
+}
+
+###
+
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+  "number": "22923-84733-41"
+}
+
+###
+
+PUT http://localhost:3001/api/persons/6384e2c2c99529b723ee5372
+Content-Type: application/json
+
+{"name":"Camila",
+"number":"2281-588714"}
