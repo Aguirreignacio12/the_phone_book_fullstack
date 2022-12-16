@@ -1,2 +1,2 @@
 //site url
-https://api-phone-book.vercel.app/
+https://the-phone-book-app.vercel.app/
